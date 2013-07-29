@@ -1,0 +1,35 @@
+.multi-columns-row .first-in-row {
+	clear: left;
+}
+
+.multi-columns-row .col-6:nth-child(2n + 3) { clear: left; }
+.multi-columns-row .col-4:nth-child(3n + 4) { clear: left; }
+.multi-columns-row .col-3:nth-child(4n + 5) { clear: left; }
+.multi-columns-row .col-2:nth-child(6n + 7) { clear: left; }
+.multi-columns-row .col-1:nth-child(12n + 13) { clear: left; }
+
+@media (min-width: 768px) {
+	.multi-columns-row .col-6:nth-child(2n + 3) { clear: none; }
+	.multi-columns-row .col-4:nth-child(3n + 4) { clear: none; }
+	.multi-columns-row .col-3:nth-child(4n + 5) { clear: none; }
+	.multi-columns-row .col-2:nth-child(6n + 7) { clear: none; }
+	.multi-columns-row .col-1:nth-child(12n + 13) { clear: none; }
+	.multi-columns-row .col-sm-6:nth-child(2n + 3) { clear: left; }
+	.multi-columns-row .col-sm-4:nth-child(3n + 4) { clear: left; }
+	.multi-columns-row .col-sm-3:nth-child(4n + 5) { clear: left; }
+	.multi-columns-row .col-sm-2:nth-child(6n + 7) { clear: left; }
+	.multi-columns-row .col-sm-1:nth-child(12n + 13) { clear: left; }
+}
+
+@media (min-width: 992px) {
+	.multi-columns-row .col-sm-6:nth-child(2n + 3) { clear: none; }
+	.multi-columns-row .col-sm-4:nth-child(3n + 4) { clear: none; }
+	.multi-columns-row .col-sm-3:nth-child(4n + 5) { clear: none; }
+	.multi-columns-row .col-sm-2:nth-child(6n + 7) { clear: none; }
+	.multi-columns-row .col-sm-1:nth-child(12n + 13) { clear: none; }
+	.multi-columns-row .col-lg-6:nth-child(2n + 3) { clear: left; }
+	.multi-columns-row .col-lg-4:nth-child(3n + 4) { clear: left; }
+	.multi-columns-row .col-lg-3:nth-child(4n + 5) { clear: left; }
+	.multi-columns-row .col-lg-2:nth-child(6n + 7) { clear: left; }
+	.multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
+}
