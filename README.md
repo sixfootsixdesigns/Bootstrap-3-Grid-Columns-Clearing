@@ -34,3 +34,11 @@ This works for any grid where all columns are the same for the particular grid s
 	col-lg-6 (large desktop 2 columns)
 
 See the `example.html` page for sample markup and working demo.
+
+Quick note to make this work correctly you need to use all grid definitions from the starting column size. Example:
+
+	<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">...
+	
+	<div class="col-sm-4 col-md-3 col-lg-3">...
+	
+	<div class="col-md-4 col-lg-3">...
