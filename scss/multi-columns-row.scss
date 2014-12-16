@@ -10,7 +10,6 @@
 .multi-columns-row .col-xs-2:nth-child(6n + 7) { clear: left; }
 .multi-columns-row .col-xs-1:nth-child(12n + 13) { clear: left; }
 @media (min-width: $screen-sm-min) {
-@media (min-width: $screen-sm-min) {
 	// reset previous grid
 	.multi-columns-row .col-xs-6:nth-child(2n + 3) { clear: none; }
 	.multi-columns-row .col-xs-4:nth-child(3n + 4) { clear: none; }
@@ -54,5 +53,4 @@
 	.multi-columns-row .col-lg-3:nth-child(4n + 5) { clear: left; }
 	.multi-columns-row .col-lg-2:nth-child(6n + 7) { clear: left; }
 	.multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
-}
 }
