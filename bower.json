@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-grid-columns-clearing",
+  "version": "1.0.3",
+  "main": [
+    "./css/multi-columns-row.css",
+    "./js/ie-row-fix.js",
+    "./less/multi-columns-row.less",
+    "./scss/multi-columns-row.scss",
+    "./stylus/multi-columns-row.styl"
+  ],
+  "homepage": "https://github.com/Slaver/Bootstrap-3-Grid-Columns-Clearing",
+  "authors": [
+    "James Olson",
+    "Viacheslav Radionov"
+  ],
+  "description": "Bootstrap 3 Grid Columns Clearing",
+  "keywords": [
+    "twbs",
+    "bootstrap",
+    "sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
