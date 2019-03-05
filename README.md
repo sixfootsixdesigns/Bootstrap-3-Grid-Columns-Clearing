@@ -1,5 +1,15 @@
 #Bootstrap 3 Grid Columns Clearing
 
+Install with yarn
+```
+$ yarn add bootstrap-3-grid-columns-clearing
+```
+
+Install with npm
+```
+$ npm install bootstrap-3-grid-columns-clearing
+```
+
 By adding the `js/ie-row-fix.js` file and either the `css/multi-columns-row.css` or compiling the `less/multi-columns-row.less` file with Bootstrap 3 you can add
 support for clearing columns in a row.
 
@@ -37,6 +47,7 @@ See the `example.html` page for sample markup and working demo.
 
 Quick note to make this work correctly you need to use all grid definitions from the starting column size. Example:
 
+```
 	<div class="row multi-columns-row">
 		<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">...</div>
 		<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">...</div>
@@ -72,3 +83,4 @@ Quick note to make this work correctly you need to use all grid definitions from
 		<div class="col-lg-3">...</div>
 		<div class="col-lg-3">...</div>
 	</div>
+```

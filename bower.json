@@ -1,6 +1,6 @@
 {
-  "name": "bootstrap-grid-columns-clearing",
-  "version": "1.0.3",
+  "name": "bootstrap-3-grid-columns-clearing",
+  "version": "1.0.4",
   "main": [
     "./css/multi-columns-row.css",
     "./js/ie-row-fix.js",

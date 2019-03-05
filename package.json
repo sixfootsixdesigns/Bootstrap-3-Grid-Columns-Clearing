@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-3-grid-columns-clearing",
+  "version": "1.0.4",
+  "description": "Bootstrap 3 grid columns clearing",
+  "license": "MIT",
+  "author": "James Olson",
+  "contributors": [
+    "Viacheslav Radionov"
+  ],
+  "homepage": "https://github.com/sixfootsixdesigns/Bootstrap-3-Grid-Columns-Clearing",
+  "bugs": {
+    "url": "https://github.com/sixfootsixdesigns/Bootstrap-3-Grid-Columns-Clearing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixfootsixdesigns/Bootstrap-3-Grid-Columns-Clearing.git"
+  },
+  "keywords": [
+    "twbs",
+    "bootstrap",
+    "bootstrap 3",
+    "less",
+    "sass"
+  ]
+}
